@@ -6,13 +6,7 @@ class Ball {
     this.height = 60;
     this.xVel = 4;
     this.yVel = 3;
-    this.image = this.setImage();
-  }
-
-  setImage() {
-    let img = new Image();
-    img.src = "../images/soc-ball.png";
-    return img;
+    this.image = document.querySelector('#soc-ball');
   }
 
   drawBall() {

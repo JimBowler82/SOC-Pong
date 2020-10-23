@@ -48,9 +48,7 @@ document.addEventListener("keyup", (event) => {
 
 
 function run() {
-
   game.gameLoop();
-
   requestAnimationFrame(run);
 }
 
