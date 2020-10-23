@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SOC Pong</title>
+    <link rel="stylesheet" href="./styles/style.css">
+  </head>
+  <body>
+
+    <div id="container">
+      <header>
+        <h1>🏓 SOC PONG</h1>
+        <img src="./images/soc-ball.png" alt="soc logo">
+      </header>
+
+      <div id="canvas-area">
+        <canvas></canvas>
+      </div>
+
+      <div id="buttons">
+        <button id="start">START</button>
+        <button id="reset">RESET</button>
+      </div>
+
+      <div id="instructions">
+        <h3>Instructions:</h3>
+        <h4>First to 10 points wins!</h4>
+        <p><Strong>Player 1: </Strong>(<em>Left Side</em>) W Key ⬆ , S Key ⬇ </p>
+        <p><Strong>Player 2: </Strong>(<em>Right Side</em>) Arrow Up Key ⬆ , Arrow Down Key ⬇ </p>
+      </div>
+
+      <footer>
+        Coded by Tommy & James &copy; 2020
+      </footer>
+    </div>
+    
+    
+    <script src="./components/background.js"></script>
+    <script src="./components/ball.js"></script>
+    <script src="./components/paddle.js"></script>
+    <script src="./components/player.js"></script>
+    <script src="./components/game.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
